@@ -1,5 +1,5 @@
 
-with open("ex001\\texto.txt", "r") as arquivo:
+with open("texto.txt", "r") as arquivo:
     conteudo = arquivo.read()
 conteudo1 = conteudo.split()
 conteudo1 = "".join(conteudo1)
